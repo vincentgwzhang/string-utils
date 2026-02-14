@@ -1,0 +1,30 @@
+{
+  "name": "@vincentgwzhang/string-utils",
+  "version": "1.0.0",
+  "description": "Simple string utility functions",
+  "main": "dist/index.js",           
+  "module": "dist/index.js",         
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
