@@ -1,6 +1,6 @@
 {
   "name": "@vincentgwzhang/string-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple string utility functions",
   "main": "dist/index.js",
   "module": "dist/index.js",
