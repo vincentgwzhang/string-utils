@@ -9,6 +9,13 @@ npm pack
 npm login
 npm publish --access public
 
+
+*******************************************************
+npm version patch
+git push --follow-tags
+*******************************************************
+
+
 how to reuse?
 npm install @vincentgwzhang/string-utils
 
